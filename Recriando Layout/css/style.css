@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #2C2B3D;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Estilo do Header */
+
+header {
+  width: 100%;
+  padding: 60px 0;
+}
+
+header .interface {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+}
+
+header .menu-desktop nav ul {
+  list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header .menu-desktop nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.menu-desktop nav a:hover {
+  transform: scale(1.05);
+}
+
+header .btn-contato button {
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+header .btn-contato button:hover {
+  background-color: #00BFA6;
+  color: #2C2B3D;
+
+}
+
+/* Estilo do main */
+
+.page main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+
+section h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.5;
+}
+
+section h1 span {
+  color: #00BFA6;
+}
+
+section p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #C2C2C2;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+section p span {
+  color: #00BFA6;
+}
+
+
+/* Estilo do footer */
+
+
+footer {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+footer #line {
+  width: 568PX;
+  height: 0;
+  margin: 0 auto 25px;
+  border: 1px solid #00BFA6;
+}
+
+footer .insta {
+  color:  #00BFA6;
+  ;
+  text-decoration: none;
+}
+
+.cadeado {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 20px;
+
+}
